@@ -24,6 +24,14 @@
         "followup": [],
         "specialFollowup": []
     },
-    "cardPrerequisites": [],
+    "cardPrerequisites": [
+        {
+            "id": -1,
+            "status": [
+                "CardShown",
+                "RightActionTaken",
+                "LeftActionTaken"
+            ]
+        }],
     "specialCardPrerequisites": []
 }

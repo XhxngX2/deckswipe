@@ -84,6 +84,8 @@ namespace DeckSwipe.CardModel.Import {
 					continue;
 				}
 
+			//	string currentDir = Directory.GetCurrentDirectory();
+
 				Stream imageStream;
 				if ((imageStream = imageResponse.GetResponseStream()) == null) {
 					Debug.LogWarning(
